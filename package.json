@@ -4,25 +4,31 @@
   "description": "Front end for the hotels backend",
   "main": "app.ts",
   "scripts": {
-    "test": "we are live!",
+    "test": "jest",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devidcillo/hotels-front.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/devidcillo/hotels-front.git",
+  "author": "David <mcorrale@thoughtworks.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/devidcillo/hotels-front/issues"
   },
   "homepage": "https://github.com/devidcillo/hotels-front#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-jest": "^25.1.0",
     "concurrently": "^5.1.0",
+    "jest": "^25.1.0",
     "lite-server": "^2.5.4",
     "typescript": "^3.8.3"
+  },
+  "private": false,
+  "dependencies": {
+    "@types/jest": "^25.1.3"
   }
 }
