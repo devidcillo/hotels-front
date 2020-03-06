@@ -1,2 +1,2 @@
-"use strict";
-console.log('en vivo');
+import { greet } from "./src/main-page";
+document.body.textContent = greet();
