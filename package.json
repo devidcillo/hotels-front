@@ -1,0 +1,28 @@
+{
+  "name": "hotels-front",
+  "version": "1.0.0",
+  "description": "Front end for the hotels backend",
+  "main": "app.ts",
+  "scripts": {
+    "test": "we are live!",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devidcillo/hotels-front.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devidcillo/hotels-front/issues"
+  },
+  "homepage": "https://github.com/devidcillo/hotels-front#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "typescript": "^3.8.3"
+  }
+}
